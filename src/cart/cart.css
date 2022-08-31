@@ -1,0 +1,65 @@
+.cartItem, .bottom-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.sub p {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.check {
+    margin-left: 5px;
+    text-transform: lowercase;
+    color: black;
+}
+
+
+
+.fa {
+    color: #E16A16;
+}
+
+.card-item {
+    padding: 20px;
+    height: 250px;
+    width: 100%;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+
+
+.sub {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.check-btn {
+    outline: none;
+    border: 0;
+    box-shadow: none;
+    background: #E16A16;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.deck {
+    width: 10%;
+    border: none;
+}
+
+.checkout-section {
+    display: flex;
+}
+
+@media screen and (max-width: 650px) {
+    .checkout-section {
+        flex-direction: column;
+    }
+}

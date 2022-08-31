@@ -1,0 +1,51 @@
+.small-img img {
+    max-width: 20%;
+    margin-right: 30px;
+}
+
+.review-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviews p, .add-review p {
+    text-decoration: underline;
+}
+
+.price-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-item p {
+    width: 25%;
+}
+
+.mode {
+    font-size: 14px;
+}
+
+.input-text2 {
+    width: 7%;
+    border: 0;
+}
+
+.qty-down, .qty-up {
+    border: 1px solid #FF9900;
+    padding: 5px 10px;
+    border-radius: 70%;
+    color: #FF9900;
+}
+
+.sizes {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.sizes p {
+    margin-right: 15px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+

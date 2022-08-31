@@ -1,0 +1,114 @@
+.input-text {
+    width: 25%;
+    border: 0;
+}
+
+.qty-down, .qty-up {
+    border: 0;
+}
+
+.img-heart {
+    width: 40% !important;
+}
+
+.get-position {
+    position: relative;
+}
+
+.rating {
+    color: #E16A16;
+}
+
+@media screen and (max-width: 650px) {
+    .col-sm-12 {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+    .col-sm-12 {
+        margin-bottom: 45px;
+    }
+}
+
+.wait-section {
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  text-align: center;
+}
+
+.wait-section h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 38px;
+    font-weight: 900;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.wait-section p {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.lin {
+    color: #E16A16;
+    margin-right: 40px;
+}
+
+.myLink h5 {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+
+.myLink p a {
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #f2f2f2;
+}
+
+.copy {
+    color: rgb(207, 196, 196);
+}
+
+.get-position img {
+    width: 100%;
+}
+
+.service-card {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    padding: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.details-side {
+    display: flex;
+    justify-content: space-between;
+}
+
+.view-details {
+    border: 0;
+    outline: none;
+    box-shadow: none;
+    color: #E16A16;
+    cursor: pointer;
+    margin-bottom: 10px;
+    background: transparent;
+}

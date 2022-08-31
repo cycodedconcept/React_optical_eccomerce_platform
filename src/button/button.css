@@ -1,0 +1,64 @@
+:root {
+    --default: #4628ff;
+    --chocolate: #E16A16;
+    --white: #fdfdfd;
+    --percent: #FF0000;
+    --dark: #222;
+
+}
+
+.myBtn {
+    font-family: "Inter", sans-serif;
+    border: 0;
+    outline: 1px solid var(--chocolate);
+    box-shadow: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    color: var(--dark);
+}
+
+.myBtn:hover {
+    transform: translateY(-3px);
+}
+
+.myBtn--chocolate--solid {
+    background-color: var(--chocolate);
+    color: var(--white);
+    font-weight: bolder;
+}
+
+.myBtn--transparent--solid {
+    outline: none;
+    background-color: var(--white);
+    color: var(--percent);
+    font-weight: bolder;
+    margin-right: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.myBtn--outline--solid {
+    outline: none;
+    background-color: var(--white);
+    color: var(--chocolate);
+    font-weight: bolder;
+    border: 1px solid var(--chocolate);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* styling the button sizes */
+.myBtn--xsmall {
+    padding: 3px 10px;
+    font-size: 14px;
+}
+
+.myBtn--cart-small {
+    border-radius: 4px;
+    padding: 5px 8px;
+    font-size: 12px;
+}
